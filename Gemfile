@@ -38,10 +38,11 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.6.1.beta1'
 end
 
 group :test do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec', '2.6'
   gem 'webrat', '0.7.1'
+  gem 'spork', '0.8.4'
 end
